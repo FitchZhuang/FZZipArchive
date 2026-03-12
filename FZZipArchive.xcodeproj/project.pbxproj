@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F9453BF2F62B8D500229AB9 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 4F9453992F62B8D500229AB9 /* LICENSE */; };
+		4F9453C12F62B8D500229AB9 /* mz_strm.c in Sources */ = {isa = PBXBuildFile; fileRef = 4F9453A42F62B8D500229AB9 /* mz_strm.c */; };
+		4F9453C22F62B8D500229AB9 /* mz_strm_zlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 4F9453B22F62B8D500229AB9 /* mz_strm_zlib.c */; };
+		4F9453C32F62B8D500229AB9 /* mz_zip_rw.c in Sources */ = {isa = PBXBuildFile; fileRef = 4F9453B62F62B8D500229AB9 /* mz_zip_rw.c */; };
+		4F9453C42F62B8D500229AB9 /* mz_strm_mem.c in Sources */ = {isa = PBXBuildFile; fileRef = 4F9453A82F62B8D500229AB9 /* mz_strm_mem.c */; };
+		4F9453C52F62B8D500229AB9 /* mz_strm_wzaes.c in Sources */ = {isa = PBXBuildFile; fileRef = 4F9453B02F62B8D500229AB9 /* mz_strm_wzaes.c */; };
+		4F9453C62F62B8D500229AB9 /* mz_strm_os_posix.c in Sources */ = {isa = PBXBuildFile; fileRef = 4F9453AA2F62B8D500229AB9 /* mz_strm_os_posix.c */; };
+		4F9453C72F62B8D500229AB9 /* mz_compat.c in Sources */ = {isa = PBXBuildFile; fileRef = 4F94539C2F62B8D500229AB9 /* mz_compat.c */; };
+		4F9453C82F62B8D500229AB9 /* mz_crypt_apple.c in Sources */ = {isa = PBXBuildFile; fileRef = 4F94539F2F62B8D500229AB9 /* mz_crypt_apple.c */; };
+		4F9453C92F62B8D500229AB9 /* mz_strm_buf.c in Sources */ = {isa = PBXBuildFile; fileRef = 4F9453A62F62B8D500229AB9 /* mz_strm_buf.c */; };
+		4F9453CA2F62B8D500229AB9 /* mz_strm_split.c in Sources */ = {isa = PBXBuildFile; fileRef = 4F9453AE2F62B8D500229AB9 /* mz_strm_split.c */; };
+		4F9453CB2F62B8D500229AB9 /* mz_zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 4F9453B42F62B8D500229AB9 /* mz_zip.c */; };
+		4F9453CC2F62B8D500229AB9 /* mz_strm_pkcrypt.c in Sources */ = {isa = PBXBuildFile; fileRef = 4F9453AC2F62B8D500229AB9 /* mz_strm_pkcrypt.c */; };
+		4F9453CD2F62B8D500229AB9 /* SSZipArchive+FZZip.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9453BC2F62B8D500229AB9 /* SSZipArchive+FZZip.m */; };
+		4F9453CE2F62B8D500229AB9 /* mz_os.c in Sources */ = {isa = PBXBuildFile; fileRef = 4F9453A12F62B8D500229AB9 /* mz_os.c */; };
+		4F9453CF2F62B8D500229AB9 /* mz_os_posix.c in Sources */ = {isa = PBXBuildFile; fileRef = 4F9453A22F62B8D500229AB9 /* mz_os_posix.c */; };
+		4F9453D02F62B8D500229AB9 /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9453BA2F62B8D500229AB9 /* SSZipArchive.m */; };
+		4F9453D12F62B8D500229AB9 /* mz_crypt.c in Sources */ = {isa = PBXBuildFile; fileRef = 4F94539E2F62B8D500229AB9 /* mz_crypt.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F9453772F62AD4B00229AB9 /* FZZipArchive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FZZipArchive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F9453972F62B8D500229AB9 /* ZipArchive.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZipArchive.h; sourceTree = "<group>"; };
+		4F9453992F62B8D500229AB9 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		4F94539A2F62B8D500229AB9 /* mz.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mz.h; sourceTree = "<group>"; };
+		4F94539B2F62B8D500229AB9 /* mz_compat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mz_compat.h; sourceTree = "<group>"; };
+		4F94539C2F62B8D500229AB9 /* mz_compat.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mz_compat.c; sourceTree = "<group>"; };
+		4F94539D2F62B8D500229AB9 /* mz_crypt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mz_crypt.h; sourceTree = "<group>"; };
+		4F94539E2F62B8D500229AB9 /* mz_crypt.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mz_crypt.c; sourceTree = "<group>"; };
+		4F94539F2F62B8D500229AB9 /* mz_crypt_apple.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mz_crypt_apple.c; sourceTree = "<group>"; };
+		4F9453A02F62B8D500229AB9 /* mz_os.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mz_os.h; sourceTree = "<group>"; };
+		4F9453A12F62B8D500229AB9 /* mz_os.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mz_os.c; sourceTree = "<group>"; };
+		4F9453A22F62B8D500229AB9 /* mz_os_posix.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mz_os_posix.c; sourceTree = "<group>"; };
+		4F9453A32F62B8D500229AB9 /* mz_strm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mz_strm.h; sourceTree = "<group>"; };
+		4F9453A42F62B8D500229AB9 /* mz_strm.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mz_strm.c; sourceTree = "<group>"; };
+		4F9453A52F62B8D500229AB9 /* mz_strm_buf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mz_strm_buf.h; sourceTree = "<group>"; };
+		4F9453A62F62B8D500229AB9 /* mz_strm_buf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mz_strm_buf.c; sourceTree = "<group>"; };
+		4F9453A72F62B8D500229AB9 /* mz_strm_mem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mz_strm_mem.h; sourceTree = "<group>"; };
+		4F9453A82F62B8D500229AB9 /* mz_strm_mem.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mz_strm_mem.c; sourceTree = "<group>"; };
+		4F9453A92F62B8D500229AB9 /* mz_strm_os.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mz_strm_os.h; sourceTree = "<group>"; };
+		4F9453AA2F62B8D500229AB9 /* mz_strm_os_posix.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mz_strm_os_posix.c; sourceTree = "<group>"; };
+		4F9453AB2F62B8D500229AB9 /* mz_strm_pkcrypt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mz_strm_pkcrypt.h; sourceTree = "<group>"; };
+		4F9453AC2F62B8D500229AB9 /* mz_strm_pkcrypt.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mz_strm_pkcrypt.c; sourceTree = "<group>"; };
+		4F9453AD2F62B8D500229AB9 /* mz_strm_split.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mz_strm_split.h; sourceTree = "<group>"; };
+		4F9453AE2F62B8D500229AB9 /* mz_strm_split.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mz_strm_split.c; sourceTree = "<group>"; };
+		4F9453AF2F62B8D500229AB9 /* mz_strm_wzaes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mz_strm_wzaes.h; sourceTree = "<group>"; };
+		4F9453B02F62B8D500229AB9 /* mz_strm_wzaes.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mz_strm_wzaes.c; sourceTree = "<group>"; };
+		4F9453B12F62B8D500229AB9 /* mz_strm_zlib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mz_strm_zlib.h; sourceTree = "<group>"; };
+		4F9453B22F62B8D500229AB9 /* mz_strm_zlib.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mz_strm_zlib.c; sourceTree = "<group>"; };
+		4F9453B32F62B8D500229AB9 /* mz_zip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mz_zip.h; sourceTree = "<group>"; };
+		4F9453B42F62B8D500229AB9 /* mz_zip.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mz_zip.c; sourceTree = "<group>"; };
+		4F9453B52F62B8D500229AB9 /* mz_zip_rw.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mz_zip_rw.h; sourceTree = "<group>"; };
+		4F9453B62F62B8D500229AB9 /* mz_zip_rw.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mz_zip_rw.c; sourceTree = "<group>"; };
+		4F9453B92F62B8D500229AB9 /* SSZipArchive.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSZipArchive.h; sourceTree = "<group>"; };
+		4F9453BA2F62B8D500229AB9 /* SSZipArchive.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSZipArchive.m; sourceTree = "<group>"; };
+		4F9453BB2F62B8D500229AB9 /* SSZipArchive+FZZip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SSZipArchive+FZZip.h"; sourceTree = "<group>"; };
+		4F9453BC2F62B8D500229AB9 /* SSZipArchive+FZZip.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SSZipArchive+FZZip.m"; sourceTree = "<group>"; };
+		4F9453BD2F62B8D500229AB9 /* SSZipCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSZipCommon.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		4F94538E2F62AD4C00229AB9 /* Exceptions for "FZZipArchive" folder in "FZZipArchive" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 4F9453762F62AD4B00229AB9 /* FZZipArchive */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		4F9453792F62AD4B00229AB9 /* FZZipArchive */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4F94538E2F62AD4C00229AB9 /* Exceptions for "FZZipArchive" folder in "FZZipArchive" target */,
+			);
+			path = FZZipArchive;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F9453742F62AD4B00229AB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F94536E2F62AD4B00229AB9 = {
+			isa = PBXGroup;
+			children = (
+				4F9453792F62AD4B00229AB9 /* FZZipArchive */,
+				4F9453782F62AD4B00229AB9 /* Products */,
+				4F9453BE2F62B8D500229AB9 /* SSZipArchive */,
+			);
+			sourceTree = "<group>";
+		};
+		4F9453782F62AD4B00229AB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F9453772F62AD4B00229AB9 /* FZZipArchive.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F9453982F62B8D500229AB9 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				4F9453972F62B8D500229AB9 /* ZipArchive.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		4F9453B72F62B8D500229AB9 /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				4F9453992F62B8D500229AB9 /* LICENSE */,
+				4F94539A2F62B8D500229AB9 /* mz.h */,
+				4F94539B2F62B8D500229AB9 /* mz_compat.h */,
+				4F94539C2F62B8D500229AB9 /* mz_compat.c */,
+				4F94539D2F62B8D500229AB9 /* mz_crypt.h */,
+				4F94539E2F62B8D500229AB9 /* mz_crypt.c */,
+				4F94539F2F62B8D500229AB9 /* mz_crypt_apple.c */,
+				4F9453A02F62B8D500229AB9 /* mz_os.h */,
+				4F9453A12F62B8D500229AB9 /* mz_os.c */,
+				4F9453A22F62B8D500229AB9 /* mz_os_posix.c */,
+				4F9453A32F62B8D500229AB9 /* mz_strm.h */,
+				4F9453A42F62B8D500229AB9 /* mz_strm.c */,
+				4F9453A52F62B8D500229AB9 /* mz_strm_buf.h */,
+				4F9453A62F62B8D500229AB9 /* mz_strm_buf.c */,
+				4F9453A72F62B8D500229AB9 /* mz_strm_mem.h */,
+				4F9453A82F62B8D500229AB9 /* mz_strm_mem.c */,
+				4F9453A92F62B8D500229AB9 /* mz_strm_os.h */,
+				4F9453AA2F62B8D500229AB9 /* mz_strm_os_posix.c */,
+				4F9453AB2F62B8D500229AB9 /* mz_strm_pkcrypt.h */,
+				4F9453AC2F62B8D500229AB9 /* mz_strm_pkcrypt.c */,
+				4F9453AD2F62B8D500229AB9 /* mz_strm_split.h */,
+				4F9453AE2F62B8D500229AB9 /* mz_strm_split.c */,
+				4F9453AF2F62B8D500229AB9 /* mz_strm_wzaes.h */,
+				4F9453B02F62B8D500229AB9 /* mz_strm_wzaes.c */,
+				4F9453B12F62B8D500229AB9 /* mz_strm_zlib.h */,
+				4F9453B22F62B8D500229AB9 /* mz_strm_zlib.c */,
+				4F9453B32F62B8D500229AB9 /* mz_zip.h */,
+				4F9453B42F62B8D500229AB9 /* mz_zip.c */,
+				4F9453B52F62B8D500229AB9 /* mz_zip_rw.h */,
+				4F9453B62F62B8D500229AB9 /* mz_zip_rw.c */,
+			);
+			path = minizip;
+			sourceTree = "<group>";
+		};
+		4F9453BE2F62B8D500229AB9 /* SSZipArchive */ = {
+			isa = PBXGroup;
+			children = (
+				4F9453982F62B8D500229AB9 /* include */,
+				4F9453B72F62B8D500229AB9 /* minizip */,
+				4F9453B92F62B8D500229AB9 /* SSZipArchive.h */,
+				4F9453BA2F62B8D500229AB9 /* SSZipArchive.m */,
+				4F9453BB2F62B8D500229AB9 /* SSZipArchive+FZZip.h */,
+				4F9453BC2F62B8D500229AB9 /* SSZipArchive+FZZip.m */,
+				4F9453BD2F62B8D500229AB9 /* SSZipCommon.h */,
+			);
+			path = SSZipArchive;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F9453762F62AD4B00229AB9 /* FZZipArchive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F94538F2F62AD4C00229AB9 /* Build configuration list for PBXNativeTarget "FZZipArchive" */;
+			buildPhases = (
+				4F9453732F62AD4B00229AB9 /* Sources */,
+				4F9453742F62AD4B00229AB9 /* Frameworks */,
+				4F9453752F62AD4B00229AB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				4F9453792F62AD4B00229AB9 /* FZZipArchive */,
+			);
+			name = FZZipArchive;
+			packageProductDependencies = (
+			);
+			productName = FZZipArchive;
+			productReference = 4F9453772F62AD4B00229AB9 /* FZZipArchive.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F94536F2F62AD4B00229AB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 2630;
+				TargetAttributes = {
+					4F9453762F62AD4B00229AB9 = {
+						CreatedOnToolsVersion = 26.3;
+					};
+				};
+			};
+			buildConfigurationList = 4F9453722F62AD4B00229AB9 /* Build configuration list for PBXProject "FZZipArchive" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F94536E2F62AD4B00229AB9;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 4F9453782F62AD4B00229AB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F9453762F62AD4B00229AB9 /* FZZipArchive */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F9453752F62AD4B00229AB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F9453BF2F62B8D500229AB9 /* LICENSE in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F9453732F62AD4B00229AB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F9453C12F62B8D500229AB9 /* mz_strm.c in Sources */,
+				4F9453C22F62B8D500229AB9 /* mz_strm_zlib.c in Sources */,
+				4F9453C32F62B8D500229AB9 /* mz_zip_rw.c in Sources */,
+				4F9453C42F62B8D500229AB9 /* mz_strm_mem.c in Sources */,
+				4F9453C52F62B8D500229AB9 /* mz_strm_wzaes.c in Sources */,
+				4F9453C62F62B8D500229AB9 /* mz_strm_os_posix.c in Sources */,
+				4F9453C72F62B8D500229AB9 /* mz_compat.c in Sources */,
+				4F9453C82F62B8D500229AB9 /* mz_crypt_apple.c in Sources */,
+				4F9453C92F62B8D500229AB9 /* mz_strm_buf.c in Sources */,
+				4F9453CA2F62B8D500229AB9 /* mz_strm_split.c in Sources */,
+				4F9453CB2F62B8D500229AB9 /* mz_zip.c in Sources */,
+				4F9453CC2F62B8D500229AB9 /* mz_strm_pkcrypt.c in Sources */,
+				4F9453CD2F62B8D500229AB9 /* SSZipArchive+FZZip.m in Sources */,
+				4F9453CE2F62B8D500229AB9 /* mz_os.c in Sources */,
+				4F9453CF2F62B8D500229AB9 /* mz_os_posix.c in Sources */,
+				4F9453D02F62B8D500229AB9 /* SSZipArchive.m in Sources */,
+				4F9453D12F62B8D500229AB9 /* mz_crypt.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4F9453902F62AD4C00229AB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 57TW9CA4VK;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					HAVE_INTTYPES_H,
+					HAVE_PKCRYPT,
+					HAVE_STDINT_H,
+					HAVE_WZAES,
+					HAVE_ZLIB,
+					"$(inherited)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FZZipArchive/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fitchzhuang.FZZipArchive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F9453912F62AD4C00229AB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 57TW9CA4VK;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					HAVE_INTTYPES_H,
+					HAVE_PKCRYPT,
+					HAVE_STDINT_H,
+					HAVE_WZAES,
+					HAVE_ZLIB,
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FZZipArchive/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fitchzhuang.FZZipArchive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4F9453922F62AD4C00229AB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 57TW9CA4VK;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4F9453932F62AD4C00229AB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 57TW9CA4VK;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F9453722F62AD4B00229AB9 /* Build configuration list for PBXProject "FZZipArchive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F9453922F62AD4C00229AB9 /* Debug */,
+				4F9453932F62AD4C00229AB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F94538F2F62AD4C00229AB9 /* Build configuration list for PBXNativeTarget "FZZipArchive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F9453902F62AD4C00229AB9 /* Debug */,
+				4F9453912F62AD4C00229AB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F94536F2F62AD4B00229AB9 /* Project object */;
+}
