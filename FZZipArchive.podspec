@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
   s.name         = 'FZZipArchive'
-  s.version      = '1.0.1'
+  s.version      = '1.0.0'
   s.summary      = '基于SSZipArchive-2.4.3版本, 添加2个方法'
   s.description  = '基于SSZipArchive-2.4.3版本, 添加读取zip包内目录结构和读取zip包内文件的方法'
-  s.homepage     = 'https://github.com/FitchZhuang/FZZipArchive.git'
-  s.license      = { :type => 'MIT' }
+  s.homepage     = 'https://github.com/FitchZhuang/FZZipArchive'
+  s.license      = { :type => 'MIT', :file => 'LICENSE.txt' }
   s.authors      = { 'FitchZhuang' => 'fitchzhuang@163.com' }
   s.source       = { :git => 'https://github.com/FitchZhuang/FZZipArchive.git', :tag => "#{s.version}" }
   s.ios.deployment_target = '9.0'
