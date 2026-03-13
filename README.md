@@ -15,3 +15,9 @@
 
 
 可直接替换SSZipArchive使用
+
+
+
+cocoapods集成：
+
+`pod 'FZZipArchive'`
